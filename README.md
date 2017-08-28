@@ -1,4 +1,4 @@
-# Portfolio_working
+# Responsive Portfolio
 
-Portolio website
-Homework assignment August 26th 2017
+New version of Portolio, using media queries
+Homework assignment due on September 2nd, 9:pm, 2017

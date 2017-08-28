@@ -38,6 +38,7 @@ header {
   padding:0px;
   min-height: 300px;
 }
+
 /* ----- Contact links ----- */
 aside {
 	background-color:white;
@@ -63,11 +64,11 @@ article {
 /* ----- Portfolio ----- */
 article.portfolio {
   background-color:white;
-  padding:50px 20px 20px 30px;
+  padding:50px 35;
   color:#888;
-  width:550px;
+  width:450px;
   float:left;
-  border: 1px dotted #ddd;
+  border: 1px solid#ddd;
   min-height:300px;
 }
 
@@ -251,30 +252,44 @@ textarea {
 /* ----- End Contact form ----- */
 
 /* ----- Portfolio images ----- */
-.img1 {
+.imgLeft {
   float:left;
-  padding-left: 0px;
+  padding: 0;
   margin-bottom: 15px;
-  margin-right: 17px;
+  margin-right: 0px;
+  margin-top:10px;
   position: relative;
+  width: 48%;
 }
 
-.img2 {
-  margin-right: 3px;
+.imgRight {
   float:right;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-top:10px;
   position: relative;
+  width: 48%;
 }
+
 
 .mainPortfolio {
   margin-top: 17px;
-  padding:5px;
+  /* padding:5px;  */
 }
 
-.img1:hover {
+div.imgLeft img {
+  width:100%
+}
+
+div.imgRight img {
+  width:100%
+}
+
+.imgLeft:hover {
   opacity:0.9;
 }
 
-.img2:hover {
+.imgRight:hover {
   opacity:0.9;
 }
 
@@ -307,6 +322,38 @@ textarea {
     float:none;
     margin: 0px 20px 6px 0px;
  }
+
+.imgLeft {
+  float:left;
+  padding: 0;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-top:10px;
+  position: relative;
+  width:100%;
+}
+
+.imgRight {
+  float:left;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-top:10px;
+  position: relative;
+  width:100%;
+}
+
+article.portfolio {
+  padding: 50px;
+  width: 42%;
+  max-height:calc(100vh - 200px)
+}
+
+/* .mainPortfolio {
+  margin-top: 17px;
+  max-width: %;
+} */
+
+
 }
 /* ----- End Index @ 980 ----- */
 
@@ -352,12 +399,37 @@ textarea {
     margin-right: 20px;
 
   }
-
+  
   .headshot img {
     width: 260px; 
     float:left;
     margin: 0px 20px 6px 0px;
  }
+
+ article.portfolio {
+  padding: 50px;
+  width: 95%;
+}
+
+.imgLeft {
+  float:left;
+  padding: 0;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-top:10px;
+  position: relative;
+  width:48%;
+}
+
+.imgRight {
+  float:right;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-top:10px;
+  position: relative;
+  width:48%;
+}
+
 }
 
 
@@ -385,7 +457,7 @@ textarea {
     padding-bottom: 20px;
     height:40px;
     background-color: white;
-    word-spacing: 30px;
+    word-spacing: 20px;
   }
   
   #full {

@@ -295,7 +295,10 @@ textarea {
 
 /* ----- End Portfolio images ----- */
 
-/* ----- Media Queries ----- */
+
+/*====================================== */
+/* ----------- Media Queries ----------- */
+/*====================================== */
 
 /* ----- Index @ 980 ----- */
 @media screen and (max-width: 980px) {
@@ -305,15 +308,103 @@ textarea {
     margin: 0px 20px 6px 0px;
  }
 }
+/* ----- End Index @ 980 ----- */
+
 
 /* ----- Index @ 768 ----- */
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 879px) {
   
+  #container { 
+    width:100%;
+  }
+  
+  #wrapper {
+    width:100%;
+  }
+  
+  #full {
+    margin-top: 15px;
+    margin-left: 20px;
+    clear: both;
+    width: 100%;
+  }
+
+  article {
+    padding:50px 35px ;
+    width:95%;
+    float:left;
+    min-height:300px;
+    margin-bottom: 40px;
+  }
+
+  aside {
+    padding: 50px 40px;
+    width:95%;
+    text-align: left;
+    float:left;
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
+  nav {
+    margin-right: 20px;
+
+  }
+
   .headshot img {
-    width: 130px; 
+    width: 260px; 
     float:left;
     margin: 0px 20px 6px 0px;
  }
+}
+
+
+/* ----- END Index @ 768 ----- */
+
+
+/* ----- Index @ 640 ----- */
+@media screen and (max-width: 640px) {
+
+  #logo {
+    width:100%;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+ 
+  nav {
+    float:left;
+    width:100%;
+    margin-top: 0px;
+    margin-right: 0px;  
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height:40px;
+    background-color: white;
+    word-spacing: 30px;
+  }
+  
+  #full {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  .headshot img {
+    width: 100%; 
+    float:left;
+    margin: 0px 0px 6px 0px;
+ }
+
+ article {
+  padding: 20px 20px ; 
+  min-height:300px;
+  margin-bottom: 10px;
+}
 
 }
